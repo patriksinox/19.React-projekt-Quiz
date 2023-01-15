@@ -1,13 +1,81 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f5f8 !important;
+  color: #324d67 !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 4rem auto;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+form {
+  padding: 3rem;
+  width: 100%;
+}
+form .btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 200px;
+}
+label {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.modal {
+  text-align: center !important;
+}
+.modal-header {
+  justify-content: center !important;
+}
+article {
+  position: inherit;
+  text-align: center;
+  margin-top: 200px;
+}
+.spinner-border {
+  width: 9rem !important;
+  height: 9rem !important;
+  font-size: 1.3rem !important;
+}
+.spravne-odpovede {
+  color: green;
+  text-align: end;
+  margin-bottom: 25px !important;
+}
+.otazky {
+  display: block;
+  padding: 3rem;
+  max-width: 600px;
+  margin: 4rem auto;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+.odpoved {
+  display: block !important;
+  width: 80%;
+  font-size: 1.2rem !important;
+  margin: 10px auto;
+}
+.odpoved-dalsia {
+  display: block !important;
+  width: 60%;
+  font-size: 1.2rem !important;
+  margin: 20px auto;
+}
+Footer {
+  font-size: 1.5rem;
 }
